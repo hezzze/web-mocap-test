@@ -1,0 +1,30 @@
+{
+  "name": "zzcfacecap client",
+  "version": "0.0.1",
+  "description": "Example application for mocap4face library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --host 0.0.0.0 --config webpack.config.dev.js",
+    "dev_https": "webpack serve --https --host 0.0.0.0 --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js"
+  },
+  "author": "Alter",
+  "license": "ISC",
+  "dependencies": {
+    "@0xalter/mocap4face": "^0.4.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.52.2",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
